@@ -20,10 +20,6 @@ Dataset yang digunakan berisikan data-data perjalanan dari dua perushaan *ride-h
 
 Tujuan dari penelitian ini adalah mengembangkan dan menerapkan model Regresi Linear untuk memprediksi harga perjalanan pada layanan ride-hailing di Boston, Massachusetts, dengan mempertimbangkan variabel-variabel seperti jenis layanan, lokasi, jarak, dan kondisi cuaca. Penelitian ini menggunakan dataset yang disediakan oleh Uber dan Lyft. Fokus utama adalah meningkatkan akurasi prediksi harga perjalanan, dengan harapan memberikan wawasan yang berharga bagi pengguna dan perusahaan ride-hailing.
 
-### **Conceptual Problems:**
-1. Sebutkan dan jelaskan asumsi yang dipakai oleh Linear Regression ! (Gunakan bahasa anda sendiri)
-2. Tunjukkan dan tafsirkan arti dari slope dan intercept yang didapat dari model yang telah Anda bangun !
-
 ### **Tools:**
 - **Data Manipulation:** Python, Pandas, Numpy
 - **Statistical Analysis:** Scipy, Statsmodels
