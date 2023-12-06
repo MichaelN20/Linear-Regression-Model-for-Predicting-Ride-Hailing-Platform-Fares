@@ -1,5 +1,4 @@
 # Building a Linear Regression Model for Predicting Ride-Hailing Platform Fares
----
 
 **`Dashboard:`**
 
