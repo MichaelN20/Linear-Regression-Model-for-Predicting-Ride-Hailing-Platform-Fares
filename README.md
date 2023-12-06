@@ -25,9 +25,9 @@ Tujuan dari penelitian ini adalah mengembangkan dan menerapkan model Regresi Lin
 2. Tunjukkan dan tafsirkan arti dari slope dan intercept yang didapat dari model yang telah Anda bangun !
 
 ### **Tools:**
-- Data Manipulation: Python, Pandas, Numpy
-- Statistical Analysis: Scipy, Statsmodels
-- Visualization: Matplotlib, Seaborn
-- Feature Engineering: Phik, Variance Inflation Factor (VIF)
-- Machine Learning: Scikit-Learn (LinearRegression, train_test_split)
-- Preprocessing: RobustScaler, OrdinalEncoder
+- **Data Manipulation:** Python, Pandas, Numpy
+- **Statistical Analysis:** Scipy, Statsmodels
+- **Visualization:** Matplotlib, Seaborn
+- **Feature Engineering:** Phik, Variance Inflation Factor (VIF)
+- **Machine Learning:** Scikit-Learn (LinearRegression, train_test_split)
+- **Preprocessing:** RobustScaler, OrdinalEncoder
