@@ -1,27 +1,33 @@
 # Building a Linear Regression Model for Predicting Ride-Hailing Platform Fares
 
-**`Dashboard:`**
+### **Informasi Dataset:**
 
-[Tableau Dashboard](https://public.tableau.com/views/AngkaHarapanHidupInternasional/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+Dataset yang digunakan berisikan data-data perjalanan dari dua perushaan *ride-hailing* yaitu Uber dan Lyft khususnya di Boston, Massachusetts. Dataset yang ada meliputi tipe layanan, lokasi, tarif, jarak, cuaca, dll.
 
-**`SMART framework:`**
+### **SMART framework:**
 
-1. **Specific**: Understanding and analyzing the relationship between specific factors and life expectancy, as well as identifying significant trends and patterns from 2000 to 2015.
+1. **Specific**: Membangun model Regresi Linear untuk memprediksi harga perjalanan pada layanan ride-hailing Uber dan Lyft di Boston, Massachusetts, berdasarkan berbagai faktor seperti jenis layanan, lokasi, jarak, cuaca, dll.
 
-2. **Measurable**: Variables such as 'Life Expectancy,' 'Adult Mortality,' 'Alcohol,' 'HIV/AIDS,' and others will be thoroughly analyzed. Measurement metrics involve descriptive statistical calculations, correlation between variables, and graphical visualization to provide clear insights.
+2. **Measurable**: Menilai kinerja model menggunakan metrik seperti Mean Squared Error (MSE) dan R-squared untuk mengukur tingkat akurasi dalam memprediksi harga perjalanan.
 
-3. **Achievable**: Conducting analysis on data regarding life expectancy and other health factors to observe the relationships between variables.
+3. **Achievable**: Memanfaatkan dataset yang disediakan yang berisi informasi perjalanan ride-hailing untuk membangun dan melatih model Regresi Linear untuk prediksi tarif.
 
-4. **Relevant**: The analysis conducted will provide a deep understanding of changes over 15 years (2000-2015).
+4. **Relevant**: Model ini menangani kebutuhan praktis untuk memprediksi dengan akurat harga perjalanan ride-hailing, memberikan wawasan berharga bagi pengguna dan perusahaan ride-hailing.
 
-5. **Time-Bound**: Insights will be obtained after a week of initiating the analysis.
+5. **Time-Bound**: Bertujuan untuk menyelesaikan pengembangan model dan evaluasi dalam batas waktu tertentu, memastikan pengiriman wawasan dan prediksi yang berguna untuk implementasi praktis.
 
-**`Problem statement:`**
-The ultimate goal is to understand the factors that have the greatest impact (lifestyle patterns, diseases, mortality rates, etc.) on an individual's life expectancy. This can be achieved by analyzing and understanding all types of variables related to health factors and life expectancy through data spanning 15 years (2000-2015).
+### **Objective:**
 
-**`Objective:`**
-To understand and analyze the relationship between specific factors and life expectancy, as well as identifying trends and significant patterns from 2000 to 2015.
+Tujuan dari penelitian ini adalah mengembangkan dan menerapkan model Regresi Linear untuk memprediksi harga perjalanan pada layanan ride-hailing di Boston, Massachusetts, dengan mempertimbangkan variabel-variabel seperti jenis layanan, lokasi, jarak, dan kondisi cuaca. Penelitian ini menggunakan dataset yang disediakan oleh Uber dan Lyft. Fokus utama adalah meningkatkan akurasi prediksi harga perjalanan, dengan harapan memberikan wawasan yang berharga bagi pengguna dan perusahaan ride-hailing.
 
-**`Tools:`**
-- Analysis: Python, Numpy, Pandas, Scipy
+### **Conceptual Problems:**
+1. Sebutkan dan jelaskan asumsi yang dipakai oleh Linear Regression ! (Gunakan bahasa anda sendiri)
+2. Tunjukkan dan tafsirkan arti dari slope dan intercept yang didapat dari model yang telah Anda bangun !
+
+### **Tools:**
+- Data Manipulation: Python, Pandas, Numpy
+- Statistical Analysis: Scipy, Statsmodels
 - Visualization: Matplotlib, Seaborn
+- Feature Engineering: Phik, Variance Inflation Factor (VIF)
+- Machine Learning: Scikit-Learn (LinearRegression, train_test_split)
+- Preprocessing: RobustScaler, OrdinalEncoder
